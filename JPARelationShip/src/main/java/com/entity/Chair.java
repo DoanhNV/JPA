@@ -12,7 +12,11 @@ public class Chair {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private int length;
+	
+	public Chair() {
 
+	}
+	
 	public Chair(int length) {
 		this.length = length;
 	}

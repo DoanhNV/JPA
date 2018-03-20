@@ -17,7 +17,11 @@ public class Desk {
 	private int length;
 	@OneToMany(targetEntity = Chair.class)
 	private List<Chair> chairs;
-
+	
+	public Desk() {
+	
+	}
+	
 	public Desk(int length) {
 		this.length = length;
 	}
